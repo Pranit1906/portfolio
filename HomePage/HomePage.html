@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PortFolio</title>
+
+        <link rel="stylesheet" href="Home.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+
+        <!---------------------------------- Header Section ------------------------------------>
+        <header class="sticky">
+            <nav>
+                <div class="left">Pranit's PortFolio</div>
+                <div class="right">
+                    <ul>
+                        <li><a href="../HomePage/HomePage.html">Home</a></li>
+                        <li><a href="../About_page/AboutPage.html">About</a></li>
+                        <li><a href="../ServicesPage/ServicePage.html">Service</a></li>
+                        <li><a href="../ContactUs_Page/ContactMe.html">Contact Me</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- <div class="sticky">sticky</div> -->
+
+
+        <!------------------------------------ Main Section ------------------------------------------------>
+        <main>
+            <!------------------------ First Section ------------------------>
+            <section class="firstSection">
+                <!------------------ Left Section ------------------------>
+            <div class="leftsection">
+                Hi Myself <span class="name">Pranit </span>
+            <div> and I'm Pursuing </div>
+            <div> Full Stack Development</div>
+            <!-- span inside which typing animation will be displayed -->
+            <span id="element"></span><br><br>
+            <div class="buttons">
+            <button class="btn"><a href="../../../../Css_ITVedant/PRANIT RESUME 2023.pdf" target="_blank">Download Resume</a></button>
+            <button class="btn"><a href="https://github.com/Pranit1906" target="_blank">Github Link</a></button>
+        </div>
+            
+            </div>
+                <!--------------------- Right Section ------------------>
+            <div class="rightsection">
+                <img src="../../../../images/software2.png" alt="">
+            </div>
+            </section>
+
+            <!------------------------Second Section ------------------------->
+            <section class="secondSection">
+        
+            </section>
+        </main><br><br><br>
+
+            <!--------------------------Footer Section -------------------------->
+            <footer>
+                <div class="footer">
+                <div class="firstFooter">
+                    <h3>Pranit's Personal PortFolio</h3></div>
+                <div class="secondFooter">
+                      <marquee direction="down">
+                            <a href="../HomePage/HomePage.html">Home</a> 
+                        </marquee>
+                    </ul>
+                </div>
+                <div class="thirdFooter">
+                   <marquee direction="Up">
+                            <a href="../About_page/AboutPage.html">About</a>   
+                        </marquee>
+                    </ul> 
+                </div>
+                <div class="fourthFooter">
+                  <marquee direction="left">
+                            <a href="../ServicesPage/ServicePage.html">Service</a>
+                        </marquee>
+                    </ul>
+                </div>
+
+                <div class="fivethFooter">
+                <marquee direction="right">
+                            <a href="../ContactUs_Page/ContactMe.html"> Contact Me</a>
+                        </marquee>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-rights">
+                Copyright &#169; pranitportfolio.com | All Right Reserved
+              </div>
+            </footer>
+
+        <!-- Typed.Js Typed.js is a library that types. 
+        Enter in any string, and watch it type at the speed you've set,
+        backspace what it's typed,and begin a new sentence for 
+        however many strings you've set.  -->
+
+        <!-- Below CDN(content delivery Network) of above Typed.js -->
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+          <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', { //Typed here is Method which helps to do string type animations.
+      strings: ['Web Developer', 'Web Designer','API Developer','&amp; also Electrical Engg'], //we can put whatever we want to display here
+      typeSpeed: 50,//speed in which text is typed and displayed
+    });
+
+    // function link(){
+    //   document.getElementById("github").innerHTML = '<a href="https://github.com/Pranit1906"></a>';
+    // }
+
+  </script>
+    </body>
+</html>

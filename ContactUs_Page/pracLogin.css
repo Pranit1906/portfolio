@@ -1,0 +1,98 @@
+body{
+padding:100px;
+background-image: url('../../../../images/contactME.jpg');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+font-family: 'Poppins', sans-serif;
+}
+
+.login{
+    border: 1.5px dotted #485162; 
+    width: 650px;
+    height:730px; 
+    color:rgb(25, 138, 183);
+    margin: 20px 450px;
+    padding: 30px;
+    border-radius: 50px;
+    box-sizing: border-box;
+ 
+} 
+
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px 0;
+    width:64%;
+}
+
+.contact img{
+    width:90%;
+    height: 15vh;
+}
+
+.number{
+    color:rgb(4, 17, 59);
+    font-size:20px;
+}
+
+.mail{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px 8px;
+    width: 76%;
+}
+
+.mail img{
+    width:68%;
+    height: 16vh;
+}
+
+.mail .id a{
+    text-decoration:none;
+    color:rgb(21, 1, 1);
+    font-size: 19px;
+}
+
+.location{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px 0;
+    width:89%;
+}
+
+.location img{
+    width:90%;
+    height: 15vh;
+}
+
+.address{
+    color:rgb(4, 17, 59);
+    font-size:18px;
+}
+
+.website{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px 0;
+    width:78%;
+}
+
+.website img{
+    width:90%;
+    height: 15vh;
+}
+
+.link{
+    color:rgb(4, 17, 59);
+    font-size:20px;
+}
